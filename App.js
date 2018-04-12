@@ -2,7 +2,7 @@ import React from 'react';
 import Avatar from './Avatar';
 import axios from 'axios';
 
-class App {
+class App extends React.Component {
   state = { 
 			loaded: false, 
 			students: [],
